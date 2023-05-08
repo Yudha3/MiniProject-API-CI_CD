@@ -18,7 +18,7 @@ public class Authentication {
     @Step("I add the new account")
     public void sendPostRegisterHttpRequest() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "hasan2@gmail.com");
+        requestBody.put("email", "hasan00@gmail.com");
         requestBody.put("password", "123123");
         requestBody.put("fullname", "Hasan Sentosa");
 
