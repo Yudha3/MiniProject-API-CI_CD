@@ -3,6 +3,7 @@ Feature: Authentication
   I want to login to application
   So that I can create new account
 
+  @register
   Scenario: POST - create a new account correctly and completely
     Given I set register endpoint
     When I add the new account
